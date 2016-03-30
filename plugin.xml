@@ -121,8 +121,6 @@ src/ios/libWeChatSDK.a 这个文件有两个版本, 一个是 iPhone Only 的, �
       </activity>
     </config-file>
 
-    <source-file src="src/android/libammsdk.jar" target-dir="libs" />
-
     <source-file src="src/android/WeChat.java" target-dir="src/com/wordsbaking/cordova/wechat" />
     <!--
         另外一个源文件 wxapi/WXEntryActivity.java 会被钩子 (hook) 脚本添加到你的项目 id 对应的文件夹中,
